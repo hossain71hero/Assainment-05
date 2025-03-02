@@ -1,16 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dev_Board</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 </head>
+
 <body>
-    
+    <section>
 
-    <h1>hello world</h1>
+        <!-- header part -->
+        <section class="container">
+            <header class="mainheader">
+                <div class="headerlogu">
+                    <img src="./assets/logo.png" alt="">
+                    <h2>DevBoard</h2>
+                </div>
+                <div class="headerChechBoxButton">
+                    <div class="checBox">
+                        <img class="checBoxImg" src="./assets/checkbox.png" alt="">
+                        <h2 id="checkboxValue">23</h2>
+                    </div>
+                    <div class="headerButton">
+                        <img id="bgChange" class="headerButtonImg" src="./assets/theme-btn.png" alt="">
+                    </div>
+
+                </div>
+            </header>
+
+
+            <!-- dev board start -->
+
+            <section class="dev-board">
+                <div style="background-color: white; width: 80%;">
+                    <div class="devBoard_01">
+                        <div class="mainbox">
+
+                            <!-- first row  -->
+                            <div class="first-row">
+                                
+                            <div class="firstRow-Box1">
+                                <div>
+                                    <img src="./assets/checkbox.png" alt="">
+                                </div>
+                                <div class="firstRow-Box1_content">
+                                    <p>Task Assaigned</p>
+                                    <h1 id="task-value">5</h1>
+                                </div>
+                            </div>
+
+                            <div id="disciver" class="firstRow-Box2">
+                                <div>
+                                    <img src="./assets/board.png" alt="">
+                                </div>
+                                <div>
+                                    <h1>Discover Something <br>
+                                         New Today!</h1>
+                                </div>
+                            </div>
+
+                            <div class="firstRow-Box3">
+                                <div>
+                                    <img src="./assets/calender.png" alt="">
+                                </div>
+                                <div>
+                                    <p>Wed</p>
+                                    <h1>July 28,2025</h1>
+                                </div>
+                            </div>
+                            </div>
+
+
+                            <div class="six_box">
+                                <div class="box-1">
+                                    <p class="box-1btn">ShopEase</p>
+                                    <h1 class="box-heading">Fix Mobile Button Issue </h1>
+                                    <p class="box-btn-02">Debug using Chrome DevTools, check for overlapping ...</p>
+
+                                    <div class="deadline">
+                                        <div class="deadlineText">
+                                            <p style="color: #496c77;">Deadline</p>
+                                            <h4>21 March 2025</h4>
+                                        </div>
+                                        <div>
+                                            <button id="deedline-Button" class="deadline-BTN">Completed</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="box-1">
+                                    <p class="box-1btn">ShopEase</p>
+                                    <h1 class="box-heading">Add Dark Mode </h1>
+                                    <p class="box-btn-02">Debug using Chrome DevTools, check for overlapping ...</p>
+
+                                    <div class="deadline">
+                                        <div class="deadlineText">
+                                            <p style="color: #496c77;">Deadline</p>
+                                            <h4>21 March 2025</h4>
+                                        </div>
+                                        <div>
+                                            <button id="deedline-Button2" class="deadline-BTN">Completed</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="box-1">
+                                    <p class="box-1btn">ShopEase</p>
+                                    <h1 class="box-heading">Optimize  Home page  </h1>
+                                    <p class="box-btn-02">Debug using Chrome DevTools, check for overlapping ...</p>
+
+                                    <div class="deadline">
+                                        <div class="deadlineText">
+                                            <p style="color: #496c77;">Deadline</p>
+                                            <h4>21 March 2025</h4>
+                                        </div>
+                                        <div>
+                                            <button id="deedline-Button3" class="deadline-BTN">Completed</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-1">
+                                    <p class="box-1btn">ShopEase</p>
+                                    <h1 class="box-heading">Add new emoji </h1>
+                                    <p class="box-btn-02">Debug using Chrome DevTools, check for overlapping ...</p>
+
+                                    <div class="deadline">
+                                        <div class="deadlineText">
+                                            <p style="color: #496c77;">Deadline</p>
+                                            <h4>21 March 2025</h4>
+                                        </div>
+                                        <div>
+                                            <button id="deedline-Button4" class="deadline-BTN">Completed</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-1">
+                                    <p class="box-1btn">ShopEase</p>
+                                    <h1 class="box-heading">Integrate OpenAI API </h1>
+                                    <p class="box-btn-02">Debug using Chrome DevTools, check for overlapping ...</p>
+
+                                    <div class="deadline">
+                                        <div class="deadlineText">
+                                            <p style="color: #496c77;">Deadline</p>
+                                            <h4>21 March 2025</h4>
+                                        </div>
+                                        <div>
+                                            <button id="deedline-Button5" class="deadline-BTN">Completed</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-1">
+                                    <p class="box-1btn">ShopEase</p>
+                                    <h1 class="box-heading">Improve Job searching  </h1>
+                                    <p class="box-btn-02">Debug using Chrome DevTools, check for overlapping ...</p>
+
+                                    <div class="deadline">
+                                        <div class="deadlineText">
+                                            <p style="color: #496c77;">Deadline</p>
+                                            <h4>21 March 2025</h4>
+                                        </div>
+                                        <div>
+                                            <button id="deedline-Button6" class="deadline-BTN">Completed</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- dev-board 02 -->
+                <div class="devBoard_02 "
+                    style="text-align: center; width: 20%; background-color: white; margin-left: 10px;">
+                    <h5 style="text-align: center ; font-size: 19px;"><i
+                            class="fa-solid fa-clock-rotate-left"></i>Activity log</h5>
+                    <button id="clearButton" class="dev-board2-btn">Clear history</button>
+                    <div id="historyadd">
+
+                    </div>
+                </div>
+            </section>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+<script src="./app.js"></script>
+<script src="./block.js"></script>
+<script src="back.js"></script>
+<script src="themChange.js"></script>
 </body>
+
 </html>
