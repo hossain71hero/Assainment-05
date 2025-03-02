@@ -1,3 +1,8 @@
 document.getElementById('backToDesk').addEventListener("click",function(){
-    window.location="index.html"
+
+
+    window.history.go(-1);
+
+
+    
 })
